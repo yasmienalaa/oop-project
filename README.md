@@ -4,7 +4,7 @@ OOP Project
 Food Ordering Management System
 The Food Ordering Management System is crafted to streamline the management of food ordering and delivery activities. It accommodates three categories of users: Admin, Delivery Staff, and Customer. All users derive common properties and methods from the Person class.
 
-Class: Person
+#Class: Person
 
 Serves as the base class for all users (Admin, Delivery Staff, Customer).
 Incorporates shared functionalities such as login (registration and login details are stored in files for data persistence).
