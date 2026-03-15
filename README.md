@@ -1,63 +1,55 @@
 # oop-project
 Food Ordering Management System
-The Food Ordering Management System is designed to 
-facilitate the seamless management of food ordering and 
-delivery operations. It includes three types of users: 
-Admin, Delivery Staff, and Customer. All users inherit 
-common properties and methods from the Person class. 
-1. Class: Person 
-o Base class for all users (Admin, Delivery Staff, 
-Customer). 
-o Includes common functionalities such as login 
-(All registration and login are stored in files for 
-persistence.) 
-2. Class: Customer 
-o Inherits from Person. 
-o Implements functionalities specific to 
-customers, such as(Create Order: Select items 
-and create a new order, Cancel Order: Cancel an 
-existing order, Update Order: Modify details of an 
-order, View Orders: Access a list of all their past 
-and current orders, Check Order State: Monitor 
-the status of an order). 
-3. Class: Admin 
-o Inherits from Person. 
-o Manages restaurant data (Add Restaurant: The 
-admin can register new restaurants into the 
-system, Update Restaurant: The admin can 
-modify restaurant details, Delete Restaurant: The 
-admin can remove a restaurant from the system). 
-4. Class: Delivery Staff 
-o Inherits from Person. 
-o Manages order delivery and reviews(Display 
-Orders: View all available orders in his assigned 
-area for delivery, Confirm Order: Confirm that an 
-order has been delivered, View Rating: Check 
-their personal rating based on the number of 
-orders delivered). 
-5. Abstract Class: Governorate 
-o Represents geographical regions. 
-o Subclasses include Cairo, Alexandria, and Giza. 
-o Each region contains: 
-▪ Areas: Two areas per governed rate. 
-▪ Categories: Three categories per area (Sea 
-Food, Grilled, Crepe). 
-▪ Restaurants: At least two restaurants per 
-category. 
-6. Class: Restaurant 
-o Represents the restaurants in the system. 
-o Each restaurant belongs to a specific category 
-and area within a governed rate. 
-o Restaurants provide menus containing various 
-food items. 
-7. Class: Order 
-o Represents customer orders. 
-o Orders include details such as the items 
-ordered, total price, and status. 
-o Each order is associated with a specific 
-restaurant and location. 
-8. Class: Food 
-o Represents individual food items available in 
-restaurant menus. 
-o Food items have attributes like name, price, and 
-type. 
+OOP Project
+Food Ordering Management System
+The Food Ordering Management System is crafted to streamline the management of food ordering and delivery activities. It accommodates three categories of users: Admin, Delivery Staff, and Customer. All users derive common properties and methods from the Person class.
+
+Class: Person
+
+Serves as the base class for all users (Admin, Delivery Staff, Customer).
+Incorporates shared functionalities such as login (registration and login details are stored in files for data persistence).
+Class: Customer
+
+Inherits from Person.
+Implements customer-specific functionalities, including:
+Create Order: Choose items and place a new order.
+Cancel Order: Withdraw an existing order.
+Update Order: Alter details of an order.
+View Orders: Access a record of all past and current orders.
+Check Order State: Track the status of an order.
+Class: Admin
+
+Inherits from Person.
+Oversees restaurant data management, including:
+Add Restaurant: Register new restaurants in the system.
+Update Restaurant: Edit restaurant information.
+Delete Restaurant: Remove a restaurant from the system.
+Class: Delivery Staff
+
+Inherits from Person.
+Handles order delivery and reviews, including:
+Display Orders: View all orders available for delivery in their designated area.
+Confirm Order: Acknowledge that an order has been delivered.
+View Rating: Check their personal rating based on the number of completed deliveries.
+Abstract Class: Governorate
+
+Represents geographical regions.
+Subclasses comprise Cairo, Alexandria, and Giza.
+Each region contains:
+Areas: Two areas per governed region.
+Categories: Three categories per area (Sea Food, Grilled, Crepe).
+Restaurants: A minimum of two restaurants per category.
+Class: Restaurant
+
+Represents the restaurants within the system.
+Each restaurant belongs to a specific category and area within a governed region.
+Restaurants offer menus with various food items.
+Class: Order
+
+Represents customer orders.
+Orders consist of details like the items ordered, total price, and status.
+Each order is linked to a specific restaurant and location.
+Class: Food
+
+Represents individual food items available on restaurant menus.
+Food items contain attributes such as name, price, and type.
